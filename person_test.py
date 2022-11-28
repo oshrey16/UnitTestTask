@@ -4,6 +4,7 @@ from person import Worker
 from person import Factory
 
 class TestPerson(unittest.TestCase):
+    x =0
     person = Person(0,"person1",30)
     def test_0_init(self):
         with self.subTest("Name ID"):
